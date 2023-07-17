@@ -38,7 +38,7 @@ type Client struct {
 	userAgent string
 
 	// Accounts service
-	Account *AccountsService
+	Accounts *AccountsService
 
 	// Me service
 	Me *MeService
