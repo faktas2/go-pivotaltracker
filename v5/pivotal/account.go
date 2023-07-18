@@ -20,7 +20,7 @@ type AccountsService struct {
 	client *Client
 }
 
-func newAccountService(client *Client) *AccountsService {
+func newAccountsService(client *Client) *AccountsService {
 	return &AccountsService{client}
 }
 
